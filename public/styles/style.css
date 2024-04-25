@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e9f1f1 !important;
+    font-family: 'calibri';
+}
+
+header{
+    background: #778A8A;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+}
+
+nav{
+    float: left;
+}
+
+.toolbar img{
+    width: 80px;
+    height: auto;
+    float: left;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 10px;
+    float: left;
+    padding: 20px 0;
+    position: relative;
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+
+nav ul li a:hover{
+    width: 100%;
+    color: #31E8E8;
+    border-radius: 15px;
+}
+
+.toolbar{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.carousel-item img{
+    width: 100% !important;
+    height: 350px !important;
+    object-fit: cover !important;
+}
+
+footer img{
+    width: 150px;
+    height: auto;
+    padding: 5px;
+    border-radius: 60px;
+}
+.footer{
+    background-color: #778A8A;
+    padding: 40px 0;
+}
+
+.rows{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.box{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.foot{
+    width: 30%;
+    flex-wrap: wrap;
+}
+.foot h5{
+    font-size: 20px;
+    color: #9FF1F1;
+    margin-bottom: 15px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.foot ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-bottom: 15px;
+
+}
+
+.foot h6{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 5px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    
+}
+.redes a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color:#778A8A;
+    margin: 0 15px 15px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all .3s ease;
+}
+
+.redes a:hover{
+    background-color: #31E8E8;
+}
+
+#accordionFlushExample p{
+    text-align: justify;
+}
+
+#accordionFlushExample h6{
+    color: #95CDCD;
+}
+
+#accordionFlushExample{
+    padding: 20px;
+}
+
+#bienvenida h2{
+    color: #31E8E8;
+    
+}
+
+#bienvenida h5{
+    color: #31E8E8;
+    padding: 5px;
+}
+
+#bienvenida p{
+    text-align: justify;
+}
+
+#bienvenida{
+    padding:40px ;
+}
+
+#bienvenida img{
+    width: 90%;
+    height: auto;
+    padding: 40px;
+    border-radius: 50px;
+}
+
+#Pregunt h5{
+    color: #31E8E8;
+    padding: 20px;
+}
+
+#recomend h5{
+    padding: 20px;
+}
+
+#Sobrenos h3{
+    margin-top: 50px;
+    padding: 20px;
+    color:#31E8E8;
+    
+}
+#Sobrenos p{
+    text-align: justify;
+}
+
+#logoSobre img{
+    margin-top: 110px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#servicios{
+    padding: 50px;
+}
+
+#servicios h4{
+    color: #31E8E8;
+    padding: 20px;
+}
+
+#servicios img{
+    height: 20%;
+    width: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+#carrusel h5{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#carrusel p{
+    color:#1F1FED;
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pag Gina</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">  
+</head>
+
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <header>
+      <div class = "toolbar">
+        <img src = "./assets/Log.jpeg"/>
+        <nav>
+          <ul>
+            <li><a href = "./index.html">Inicio</a></li>
+            <li><a href = "./pag2.html">Sobre nosotros</a></li>
+          </ul>
+        </nav>
+        
+      </div>
+    </header>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" id = "carrusel">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./assets/Fam1.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Tip 1</h5>
+            <p>Comunica de manera efectiva</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./Recur_Img/Fam2.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Tip 2</h5>
+            <p>Practica la atención plena</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Recur_Img/Fam4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Tip 3</h5>
+            <p>Cuida tu autocuidado</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container text-center" id = "bienvenida">
+      <div class="row">
+        <div class="col">
+          <h2>Bienvenido a tu blog de psicologia</h2>
+         
+          
+          <p>En nuestro blog, exploramos una amplia gama de temas relacionados con 
+            la psicología, desde consejos prácticos para el bienestar mental hasta 
+            análisis profundos de tendencias actuales en la disciplina. Nuestro objetivo 
+            es proporcionar recursos útiles y perspectivas informadas para ayudarte a 
+            entender mejor tu mente y tus emociones, así como a navegar por los desafíos 
+            de la vida diaria.
+          
+          </p>
+
+          
+        </div>
+        <div class="col">
+          
+          <img src="./Recur_Img/Re.jpeg" alt="...">
+        </div>
+      </div>
+
+      <div class = "row">
+        <div class = "col">
+          
+          
+          
+          <h5 id = "TemasP">Temas populares</h5>
+          
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <h6>Salud Mental y Bienestar</h6>
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><p>Exploramos diferentes aspectos de la salud mental, 
+                  incluyendo la gestión del estrés, la ansiedad, la depresión y el autocuidado. 
+                  Ofrecemos consejos prácticos, técnicas de afrontamiento y estrategias para promover 
+                  el bienestar emocional.</p></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <h6>Relaciones Personales</h6>
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><p>Profundizamos en temas relacionados con las relaciones 
+                  interpersonales, como la comunicación efectiva, la resolución de conflictos, 
+                  el establecimiento de límites saludables y la construcción de relaciones positivas 
+                  y satisfactorias.</p></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <h6>Autoconocimiento y Desarrollo Personal</h6>
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><p>Nos adentramos en el viaje de autoexploración 
+                  y crecimiento personal, ofreciendo recursos para mejorar la autoestima, descubrir pasiones y 
+                  propósitos, establecer metas alcanzables y desarrollar habilidades para la vida.
+                  y satisfactorias.</p></div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  <h6>Estrés y Manejo de Emociones</h6>
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><p>Proporcionamos herramientas para identificar, comprender y 
+                  gestionar el estrés y las emociones difíciles. Exploramos técnicas de relajación, 
+                  mindfulness y manejo del tiempo para ayudarte a reducir el estrés y cultivar la 
+                  resiliencia emocional.</p></div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                  <h6>Psicología Infantil y Parentalidad</h6>
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><p>Nos enfocamos en el desarrollo infantil, la crianza 
+                  positiva y las dinámicas familiares. Ofrecemos orientación para padres y 
+                  cuidadores sobre cómo fomentar la salud emocional y el bienestar de los 
+                  niños, así como abordar desafíos comunes en la crianza.</p></div>
+              </div>
+            </div>
+          </div>
+          <img src="./Recur_Img/TemasP.jpeg" alt="...">
+        </div>
+
+        <div class = "col " id="Pregunt">
+          <h5>¿Por que es importante cuidar tu salud mental?</h5>
+          <img src="./Recur_Img/SaludMent.jpeg" alt="...">
+          <p>Cuidar la salud mental es esencial para vivir una vida plena y satisfactoria en todos 
+            los aspectos. No solo afecta nuestro bienestar general y nuestra capacidad para enfrentar 
+            desafíos diarios, sino que también influye en nuestra salud física, nuestras relaciones 
+            interpersonales, nuestro rendimiento académico y laboral, nuestra capacidad para adaptarnos 
+            al cambio y la reducción del estigma asociado con los trastornos mentales. En resumen, 
+            una buena salud mental es fundamental para mantener un equilibrio emocional, disfrutar de 
+            relaciones saludables y alcanzar nuestro máximo potencial en la vida.</p>
+        </div>
+
+        <div class = "col " id = recomend>
+          <h5>Dejanos tus recomendaciones u opiniones</h5>
+          <div class="Opiniones">
+
+            <form class = "row g-3 mt-3">
+
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu nombre">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu reseña</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+
+              <div class = "col-12">
+                <button type="submit" class="btn btn-primary">
+                  Enviar
+                </button>
+              </div>
+ 
+            </form>
+      
+          </div>
+
+          <img src="./Recur_Img/Mente.jpeg" alt="...">
+        </div>
+      </div>
+    </div>
+
+  
+
+    <footer class = "footer">
+      
+      <div class = "box">
+
+        <div class ="rows">
+
+          <div class = "foot">
+            <h5>Autor:</h5>
+            <img src="./Recur_Img/Author.jpeg">
+            <h6>Gina Gomez</h6>
+            <h6>Psicologa</h6>
+          </div>
+  
+          <div class = "foot">
+            <h5>Siguenos en nuestras redes</h5>
+            <div class = "redes">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            
+          </div>
+  
+          <div class = "foot">
+            <h5>Tambien te puede interesar</h5>
+            <ul>
+              <li><a href="https://d1wqtxts1xzle7.cloudfront.net/43327756/Leahey._Historia_de_la_psicologia-libre.pdf?1457042689=&response-content-disposition=inline%3B+filename%3DEsquema_sintesis_de_Leahey_T_H_Historia.pdf&Expires=1711592110&Signature=GxfNjByLO-W3jId7o~brQtJTBQJsI3f9MNwz5iCYFOUyGPR5tVkDfu3Fycrw1oQTvCtDnw9FeDWeNT-caZXs4EOBB5simfCGlguokyMM8Bs4sL0VNso0slQr9~02A-yP5Yq3KxSpxW4y2f6AG21vGfrKYIYFWpuU4mWZAtieYPKmQk-kRF0NZ2PGlmCAT4sDgOcdLnw3~z~LLgHNtn1~ld04VTMklHf3JnGWpzMGTD-jEOG9gI9kQxS0Ra3fRYEC7JhqThOJ0EgrDoFSdp6CDjLlyfwQqVxoPRtWiFyRrI-E3m5S4qan0TRR5EGMHGPrWDTb5Clb5gXR8PrPMtpPeQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA">Historia de la psicologia</a></li>
+              <li><a href="https://www.psicothema.com/pi?pii=182">Psicologia de la creatividad</a></li> 
+              <li><a href="https://scholar.google.com/scholar?start=10&q=psicologia&hl=en&as_sdt=0,5">Introducción a la psicologia</a></li> 
+            </ul>
+            
+          </div>
+
+        </div>
+        
+
+      </div>
+
+      
+     </footer>
+
+    
+
+  </body>
+</html>
