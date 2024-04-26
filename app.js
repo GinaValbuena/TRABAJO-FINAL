@@ -2,7 +2,7 @@
 import express from "express";
 import path from "path";
 import dotenv from "dotenv";
-
+import conexionMongo from "./src/config/baseDatos.js";
 
 
 //2. Configurar nuestro servidor
@@ -11,6 +11,10 @@ const puerto = 9000;
 
 //2.1 confirgura las variables de entorno
 dotenv.config();
+
+//2.2 configurar conexión base de datos
+conexionMongo();
+
 
 
 //3.Establecer la conexción con nuestro Front
