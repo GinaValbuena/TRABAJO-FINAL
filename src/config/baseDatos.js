@@ -17,3 +17,4 @@ const conexionMongo = async() => {
 
 //tenemos que exportar nuestra función para llamarla desde nuestro servidor
 export default conexionMongo;
+

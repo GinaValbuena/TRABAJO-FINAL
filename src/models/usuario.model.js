@@ -30,3 +30,4 @@ const usuarioModel = mongoose.model ("usuario" ,usuarioSchema);
 //exportamos nuestro modelo
 
 export default usuarioModel;
+
