@@ -13,7 +13,7 @@ const usuarioRouter = express . Router ();
 usuarioRouter.get('/obtenerUsuario', getUsuario);
 
 //Ruta crearusuarios
-usuarioRouter.post('/crearUsuario', getUsuario);
+usuarioRouter.post('/crearUsuario', postUsuario);
 
 //Ruta para modificar usuarios pppor su id identificado único
 usuarioRouter.put('/modificarUsuario/:_id', putUsuario);

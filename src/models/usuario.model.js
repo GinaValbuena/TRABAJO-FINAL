@@ -1,7 +1,7 @@
 //importar las dependencias que necesitamos usar
 import mongoose from "mongoose";
 
-const schema = mongoose.schema;
+const schema = mongoose.Schema;
 
 
 //Ahora nos creamos nuestro esquema de datos, que es lo que vamos a guardar en nuestra base de datos
@@ -25,7 +25,7 @@ contrasena:{
 //Yo quiero enviar plantilla  (shema) a nuestra base de datos
 //crear nuestro modelo 
 
-const usuarioModel = mongoose.model ("usuario" ,usuarioSchema);
+const usuarioModel = mongoose.model ("usuario" ,usuarioSchema,"usuarioCollection");
 
 //exportamos nuestro modelo
 
