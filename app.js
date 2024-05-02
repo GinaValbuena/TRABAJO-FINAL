@@ -4,10 +4,11 @@ import path from "path";
 import dotenv from "dotenv";
 import conexionMongo from "./src/config/baseDatos.js";
 import usuarioRouter from "./src/routes/usuario.routes.js"
-
+import cors from "cors"
 
 //2. Configurar nuestro servidor
 const app = express();
+app.use(cors());
 const puerto = 9000;
 
 //2.1 confirgura las variables de entorno
